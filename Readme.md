@@ -20,11 +20,11 @@ The network is based on resnet50 net.
 
 ## Maintainer
 
-@faiimea
+[@faiimea](https://github.com/faiimea)
 
 ## Contributors
 
-@cfg554
+[@cfg554](https://github.com/cfg554)
 
 ## TODO
 
