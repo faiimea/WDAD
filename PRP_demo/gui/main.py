@@ -80,6 +80,7 @@ def main(path):
     labels.append(1)
     ui_dataset=MyDataset(imgs,labels)
     model = torch.load("../net/fin.pth")
+    model.eval()
     ui_dataloader = torch.utils.data.DataLoader(ui_dataset, batch_size=32)
     with torch.no_grad():
         for data in ui_dataloader:

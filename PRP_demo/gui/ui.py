@@ -69,7 +69,6 @@ class Test():
         self.l1.config(image=img)
         self.l1.image = img  # keep a reference
         self.root.update()
-        # self.text.set(test.just_test(self.e1.get())) Correct
         self.text.set(main.main(self.e1.get()))
 
 
